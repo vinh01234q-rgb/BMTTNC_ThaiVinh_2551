@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HUTECH - Hệ Thống Mã Hóa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <style>
+        body { background-color: #f8f9fa; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        .hero-section { background: #fff; padding: 30px; border-radius: 0 0 50px 50px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        .algo-card { 
+            transition: all 0.3s ease; 
+            border: none; 
+            border-radius: 15px; 
+            overflow: hidden; 
+            background: #fff;
+            height: 100%;
+        }
+        .algo-card:hover { 
+            transform: translateY(-10px); 
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1); 
+        }
+        .algo-link { text-decoration: none !important; color: inherit; }
+        .btn-start { border-radius: 20px; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <div class="hero-section text-center mb-5">
+        <img src="https://file1.hutech.edu.vn/file/editor/homepage/stories/hinh34/logo%20CMYK-01.png" 
+             alt="hutech logo" style="width: 280px;" class="img-fluid mb-3">
+        <h2 class="font-weight-bold text-primary">BÀI THỰC HÀNH BẢO MẬT THÔNG TIN</h2>
+        <p class="text-muted">Hệ thống Demo các giải thuật mã hóa cổ điển - Lab 02</p>
+    </div>
+
+    <div class="container">
+        <div class="row text-center">
+            
+            <div class="col-md-4 mb-4">
+                <a href="/caesar" class="algo-link">
+                    <div class="card algo-card p-4 shadow-sm">
+                        <h4 class="font-weight-bold text-dark">Caesar Cipher</h4>
+                        <p class="text-muted small">Mã hóa dịch chuyển ký tự đơn giản dựa trên một số khóa (Key).</p>
+                        <span class="btn btn-outline-primary btn-sm btn-start">Khám phá</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <a href="/vigenere" class="algo-link">
+                    <div class="card algo-card p-4 shadow-sm">
+                        <h4 class="font-weight-bold text-dark">Vigenere Cipher</h4>
+                        <p class="text-muted small">Mã hóa thay thế đa bảng chữ cái sử dụng một từ khóa (Keyword).</p>
+                        <span class="btn btn-outline-info btn-sm btn-start">Khám phá</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <a href="/playfair" class="algo-link">
+                    <div class="card algo-card p-4 shadow-sm">
+                        <h4 class="font-weight-bold text-dark">Playfair Cipher</h4>
+                        <p class="text-muted small">Mã hóa thay thế các cặp chữ cái sử dụng ma trận 5x5.</p>
+                        <span class="btn btn-outline-success btn-sm btn-start">Khám phá</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-6 mb-4">
+                <a href="/railfence" class="algo-link">
+                    <div class="card algo-card p-4 shadow-sm">
+                        <h4 class="font-weight-bold text-dark">Rail Fence Cipher</h4>
+                        <p class="text-muted small">Mã hóa chuyển vị kiểu "hàng rào" dựa trên số dòng (Rails).</p>
+                        <span class="btn btn-outline-warning btn-sm btn-start">Khám phá</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-6 mb-4">
+                <a href="/transposition" class="algo-link">
+                    <div class="card algo-card p-4 shadow-sm">
+                        <h4 class="font-weight-bold text-dark">Transposition Cipher</h4>
+                        <p class="text-muted small">Mã hóa chuyển vị cột bằng cách sắp xếp văn bản vào ma trận.</p>
+                        <span class="btn btn-outline-danger btn-sm btn-start">Khám phá</span>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+        <footer class="mt-5 text-center text-muted pb-4">
+            <hr>
+            <p>&copy; 2026 - HUTECH University - Student Project</p>
+        </footer>
+    </div>
+
+</body>
+</html>
