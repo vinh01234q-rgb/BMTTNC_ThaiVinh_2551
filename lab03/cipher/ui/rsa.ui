@@ -52,7 +52,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QPlainTextEdit" name="txt_plain_3">
+   <widget class="QPlainTextEdit" name="txt_info">
     <property name="geometry">
      <rect>
       <x>570</x>
@@ -62,7 +62,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QPlainTextEdit" name="txt_plain_4">
+   <widget class="QPlainTextEdit" name="txt_sign">
     <property name="geometry">
      <rect>
       <x>570</x>
